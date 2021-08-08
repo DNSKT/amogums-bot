@@ -152,6 +152,3 @@ sussyBaka.on('messageCreate', message => {
 });
 
 sussyBaka.login(token);
-
-exports.users = currentGames.get('players');
-exports.client = sussyBaka;
